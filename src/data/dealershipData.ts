@@ -1,3 +1,5 @@
+import { IMAGES } from '../assets/images';
+
 export interface Vehicle {
   id: string;
   make: string;
@@ -71,7 +73,7 @@ export const VEHICLES: Vehicle[] = [
     exteriorColor: "Obsidian Black Metallic",
     interiorColor: "Exclusive Nappa Magma Grey / Black",
     regionalSpec: "GCC Specifications",
-    image: "/src/assets/images/car_mercedes_amg_gt_1792301127727.jpg",
+    image: IMAGES.mercedesAmg,
     description: "An exceptional blend of racetrack pedigree and executive grand touring luxury. Featuring carbon ceramic brakes, AMG Ride Control+, and high-spec rear executive seating.",
     keyFeatures: [
       "AMG Dynamic Plus Package with Drift Mode",
@@ -93,7 +95,7 @@ export const VEHICLES: Vehicle[] = [
     exteriorColor: "GT Silver Metallic",
     interiorColor: "Club Leather Olea Truffle Brown",
     regionalSpec: "GCC Specifications",
-    image: "/src/assets/images/car_porsche_911_turbo_1792301128096.jpg",
+    image: IMAGES.porsche,
     description: "The definitive supercar benchmark. Unrivaled acceleration, Porsche Dynamic Chassis Control (PDCC), and ceramics, presented in flawless executive condition.",
     keyFeatures: [
       "0–100 km/h in 2.7 seconds",
@@ -115,7 +117,7 @@ export const VEHICLES: Vehicle[] = [
     exteriorColor: "Santorini Black with SV Accents",
     interiorColor: "Perlino Semi-Aniline Leather",
     regionalSpec: "GCC Specifications",
-    image: "/src/assets/images/car_range_rover_sv_1792301128085.jpg",
+    image: IMAGES.rangeRover,
     description: "The peak of luxury SUV travel. Executive Class Comfort Plus rear seating with hot stone massage, deployable club table, and active noise cancellation.",
     keyFeatures: [
       "SV Serenity Luxury Theme with Ceramic Controls",
@@ -137,7 +139,7 @@ export const VEHICLES: Vehicle[] = [
     exteriorColor: "White Pearl Crystal Shine",
     interiorColor: "Neutral Premium Dual-Tone Leather",
     regionalSpec: "GCC Specifications",
-    image: "/src/assets/images/car_toyota_landcruiser_gr_1792301128682.jpg",
+    image: IMAGES.landCruiser,
     description: "Dubai’s quintessential executive companion. Bulletproof reliability combined with unmatched desert capability, upgraded adaptive variable suspension, and cooled seating.",
     keyFeatures: [
       "E-KDSS (Electronic Kinetic Dynamic Suspension)",
@@ -159,7 +161,7 @@ export const VEHICLES: Vehicle[] = [
     exteriorColor: "Frozen Marina Bay Blue",
     interiorColor: "Full Merino Silverstone Leather",
     regionalSpec: "GCC Specifications",
-    image: "/src/assets/images/car_bmw_m8_gran_coupe_1792301199096.jpg",
+    image: IMAGES.bmw,
     description: "Majestic proportions meet track-honed precision. Four-door grand touring agility with M xDrive all-wheel drive system and rear-wheel-drive bias switch.",
     keyFeatures: [
       "M Carbon Ceramic Brakes & M Driver's Package",
@@ -181,7 +183,7 @@ export const VEHICLES: Vehicle[] = [
     exteriorColor: "Sonic Titanium Metallic",
     interiorColor: "Sunflare Semi-Aniline Leather",
     regionalSpec: "GCC Specifications",
-    image: "/src/assets/images/car_lexus_lx600_vip_1792301199771.jpg",
+    image: IMAGES.lexus,
     description: "Crafted exclusively for high-profile executive transport. Features dual independent rear ottoman seats with 48-degree recline and private touchscreens.",
     keyFeatures: [
       "Ultra-Luxury VIP 4-Seat Executive Layout",
@@ -255,7 +257,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     sampleDate: "Showroom Editorial",
     readTime: "5 min read",
     excerpt: "Essential steps to navigating Dubai's premier automotive market: RTA registration, GCC specifications vs international imports, and ownership protocols.",
-    image: "/src/assets/images/hero_luxury_dubai_car_1792301126325.jpg",
+    image: IMAGES.hero,
     paragraphs: [
       "Dubai stands as one of the world's most vibrant capitals for luxury and high-performance motoring. For prospective owners, understanding the nuances of the local market ensures an investment that brings both motoring pleasure and enduring financial security.",
       "A primary consideration is regional specification. GCC-spec vehicles are specifically built to withstand the demanding Arabian Gulf climate, featuring heavy-duty cooling systems, upgraded AC compressors, and protective underbody treatments. While non-GCC imports can offer appealing pricing, GCC vehicles consistently command stronger resale values and simpler warranty servicing across the Emirates.",
@@ -276,7 +278,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     sampleDate: "Showroom Editorial",
     readTime: "4 min read",
     excerpt: "Key indicators of genuine quality in executive automobiles: electronic diagnostics, service logs, and paint depth analysis.",
-    image: "/src/assets/images/car_mercedes_amg_gt_1792301127727.jpg",
+    image: IMAGES.mercedesAmg,
     paragraphs: [
       "Acquiring a pre-owned luxury or executive vehicle in Dubai offers significant value, allowing buyers to drive flagship models from Mercedes-AMG, Porsche, and Range Rover while avoiding steep initial depreciation curves.",
       "However, discerning buyers look far beyond exterior aesthetics. The real indicators of vehicle health lie in historical maintenance logs, diagnostic computer readouts, and paint depth consistency. A pristine electronic report will confirm that control units, transmission modules, and active suspension components function within factory tolerances.",
@@ -297,7 +299,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     sampleDate: "Showroom Editorial",
     readTime: "6 min read",
     excerpt: "Navigating port customs, RTA export plates, container loading, and international transit from Ras Al Khor Auto Zone.",
-    image: "/src/assets/images/car_toyota_landcruiser_gr_1792301128682.jpg",
+    image: IMAGES.landCruiser,
     paragraphs: [
       "Dubai is recognized globally as an automotive trade hub, connecting world-class luxury vehicles with buyers across the Middle East, Africa, Europe, Central Asia, and beyond. Its strategic ports—particularly Jebel Ali—and streamlined trade regulations make vehicle export efficient.",
       "The process begins with obtaining an official RTA Export Certificate, followed by export blue license plates or direct transit customs declaration depending on whether the vehicle moves by road, air freight, or sea container.",

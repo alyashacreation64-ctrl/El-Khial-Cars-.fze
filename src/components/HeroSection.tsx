@@ -1,6 +1,6 @@
-import React from 'react';
 import { MessageCircle, Calendar, ArrowDown, ChevronRight, ShieldCheck, MapPin, Star } from 'lucide-react';
 import { DEALERSHIP_INFO } from '../data/dealershipData';
+import { IMAGES } from '../assets/images';
 
 interface HeroSectionProps {
   onOpenAppointment: () => void;
@@ -125,7 +125,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="relative overflow-hidden rounded-2xl border border-amber-400/30 bg-[#0E1522] shadow-2xl">
                 <div className="aspect-[16/10] sm:aspect-[16/11] lg:aspect-[4/3] w-full overflow-hidden relative">
                   <img
-                    src="/src/assets/images/hero_luxury_dubai_car_1792301126325.jpg"
+                    src={IMAGES.hero}
                     alt="El-Khial Cars showroom luxury flagship vehicle"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
