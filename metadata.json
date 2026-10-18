@@ -1,0 +1,6 @@
+{
+  "name": "El-Khial Cars .fze — Dubai Luxury Dealership",
+  "description": "Ultra-premium Dubai luxury car dealership website for El-Khial Cars .fze featuring executive inventory, VIP appointments, export services, and WhatsApp concierge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
